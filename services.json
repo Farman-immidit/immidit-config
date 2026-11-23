@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-23",
+  "currency": "INR",
+  "includes": [
+    "Certified nurse",
+    "Sterile kit"
+  ],
+  "categories": [
+    {
+      "id": "vaccinations",
+      "title": "Vaccinations",
+      "shortTitle": "Vaccines",
+      "icon": {
+        "ios": "syringe",
+        "android": "vaccines"
+      }
+    },
+    {
+      "id": "injections",
+      "title": "Injections",
+      "shortTitle": "Injections",
+      "icon": {
+        "ios": "cross.vial",
+        "android": "medication"
+      }
+    },
+    {
+      "id": "wound-care",
+      "title": "Wound care",
+      "shortTitle": "Wound care",
+      "icon": {
+        "ios": "bandage",
+        "android": "healing"
+      }
+    },
+    {
+      "id": "procedures",
+      "title": "Nursing procedures",
+      "shortTitle": "Procedures",
+      "icon": {
+        "ios": "cross.case",
+        "android": "medical_services"
+      }
+    },
+    {
+      "id": "iv-drips",
+      "title": "IV drips",
+      "shortTitle": "IV drips",
+      "icon": {
+        "ios": "drop",
+        "android": "water_drop"
+      }
+    },
+    {
+      "id": "consultations",
+      "title": "Doctor consultations",
+      "shortTitle": "Doctors",
+      "icon": {
+        "ios": "stethoscope",
+        "android": "stethoscope"
+      }
+    },
+    {
+      "id": "lab-tests",
+      "title": "Lab tests & ECG",
+      "shortTitle": "Lab tests",
+      "icon": {
+        "ios": "testtube.2",
+        "android": "biotech"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "child-vaccination",
+      "title": "Child Vaccination",
+      "category": "vaccinations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "Keep your child's immunisation on track without the hospital hassle. We follow the Indian Government (NIS) vaccine schedule from birth to 12 years. The nurse brings everything needed — sterile, safe, and gentle.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "tetanus-shot",
+      "title": "Tetanus Shot",
+      "category": "vaccinations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "A nurse administers your tetanus vaccine at home — after an injury, as a booster, or during pregnancy. All three types available: TT, Td, TDaP. A doctor confirms the right one for your case.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "adult-vaccination",
+      "title": "Adult Vaccination",
+      "category": "vaccinations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "Stay protected with vaccines like flu shot, typhoid, hepatitis A & B, HPV (cervical cancer), pneumococcal, and more — all administered safely at your home by a trained nurse.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "rabies-vaccine",
+      "title": "Rabies Vaccine (Post-Exposure)",
+      "category": "vaccinations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "A nurse gives you the anti-rabies vaccination (ARV) at home after a dog bite, monkey scratch, or any animal exposure. We use Rabipur or Verorab. Day 0, 3, 7, 14 schedule. First dose included.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "antibiotic-injection",
+      "title": "Antibiotic Injection",
+      "category": "injections",
+      "durationMinutes": 25,
+      "prescriptionRequired": true,
+      "description": "A nurse comes home and administers your prescribed antibiotic injection — into the muscle or vein. Faster than tablets and more effective when the infection needs quick treatment.",
+      "price": 298,
+      "priceFrom": true
+    },
+    {
+      "id": "pain-relief-injection",
+      "title": "Pain Relief Injection",
+      "category": "injections",
+      "durationMinutes": 20,
+      "prescriptionRequired": true,
+      "description": "A quick injection that relieves pain within minutes — commonly used for back pain, joint pain, period pain, or recovery after surgery. Works faster and stronger than oral painkillers.",
+      "price": 298,
+      "priceFrom": true
+    },
+    {
+      "id": "diclofenac-injection",
+      "title": "Diclofenac / Pain & Fever Injection",
+      "category": "injections",
+      "durationMinutes": 20,
+      "prescriptionRequired": true,
+      "description": "A fast-acting painkiller and fever-reducer injected into the muscle — starts working within 20 minutes. Used for severe back pain, joint pain, dental pain, post-operative pain, or high fever that oral medicines aren't controlling.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "anti-inflammatory-injection",
+      "title": "Anti-Inflammatory Injection",
+      "category": "injections",
+      "durationMinutes": 20,
+      "prescriptionRequired": true,
+      "description": "A corticosteroid injection that quickly reduces swelling, redness, and pain — used for allergic reactions, joint inflammation, asthma flare-ups, or skin conditions.",
+      "price": 298,
+      "priceFrom": true
+    },
+    {
+      "id": "vitamin-nutrition-injection",
+      "title": "Vitamin & Nutrition Injection",
+      "category": "injections",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "Get Vitamin B12, iron, or other nutrients injected directly — absorbed much better than oral supplements. Often recommended when you feel fatigued, anaemic, or have a deficiency your doctor has identified.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "vitamin-b12-injection",
+      "title": "Vitamin B12 Injection",
+      "category": "injections",
+      "durationMinutes": 20,
+      "prescriptionRequired": true,
+      "description": "A quick IM shot of methylcobalamin (Vitamin B12) — absorbed far better than oral tablets. Recommended for fatigue, nerve tingling, anaemia, or deficiency confirmed by a blood test. Often prescribed for diabetics on metformin, vegetarians, and the elderly.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "ivf-injection",
+      "title": "IVF Injection",
+      "category": "injections",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "Fertility protocol injections at home — stimulation (FSH/hMG), trigger shot (hCG), or luteal progesterone support. Nurse follows your IVF doctor's prescription exactly.",
+      "price": 1150,
+      "priceFrom": true
+    },
+    {
+      "id": "wound-dressing",
+      "title": "Wound Dressing",
+      "category": "wound-care",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "A nurse cleans your wound, applies the right dressing, and makes sure it's healing properly — for cuts, scrapes, abrasions, or any minor injury. Much safer than self-dressing at home.",
+      "price": 498,
+      "priceFrom": true
+    },
+    {
+      "id": "post-surgery-wound-care",
+      "title": "Post-Surgery Wound Care",
+      "category": "wound-care",
+      "durationMinutes": 45,
+      "prescriptionRequired": true,
+      "description": "Specialised dressing and care for surgical wounds after an operation — so you can recover at home without repeated hospital visits. The nurse checks for signs of infection and changes the dressing properly.",
+      "price": 698,
+      "priceFrom": true
+    },
+    {
+      "id": "diabetic-wound-care",
+      "title": "Diabetic Wound Care",
+      "category": "wound-care",
+      "durationMinutes": 45,
+      "prescriptionRequired": true,
+      "description": "Diabetic wounds heal slowly and can worsen quickly without proper care. A trained nurse comes to clean, dress, and monitor your foot ulcer or chronic wound — reducing the risk of infection and complications.",
+      "price": 798,
+      "priceFrom": true
+    },
+    {
+      "id": "burn-wound-dressing",
+      "title": "Burn Wound Dressing",
+      "category": "wound-care",
+      "durationMinutes": 40,
+      "prescriptionRequired": true,
+      "description": "Minor to moderate burns need careful cleaning and proper dressing to prevent infection and speed healing. A nurse comes to your home to treat the burn wound safely and change the dressing as needed.",
+      "price": 798,
+      "priceFrom": true
+    },
+    {
+      "id": "stitch-removal",
+      "title": "Stitch Removal",
+      "category": "wound-care",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "Once your wound has healed, a nurse comes to remove your stitches or staples carefully at home — no hospital trip needed. Quick, painless, and done under clean conditions.",
+      "price": 348,
+      "priceFrom": true
+    },
+    {
+      "id": "bedsore-care",
+      "title": "Bedsore / Pressure Wound Care",
+      "category": "wound-care",
+      "durationMinutes": 45,
+      "prescriptionRequired": false,
+      "description": "Bedsores (pressure ulcers) form on the skin of bedridden patients and worsen quickly without proper care. A trained nurse cleans the wound, applies medical dressings, and educates the family on prevention — helping the patient heal comfortably at home.",
+      "price": 848,
+      "priceFrom": true
+    },
+    {
+      "id": "catheter-insertion-male",
+      "title": "Catheter Insertion (Male)",
+      "category": "procedures",
+      "durationMinutes": 40,
+      "prescriptionRequired": true,
+      "description": "When a man cannot urinate naturally — due to surgery, prostate issues, or injury — a soft tube is gently inserted by a trained nurse to drain urine comfortably. Done with full privacy and sterile technique at your home.",
+      "price": 1598,
+      "priceFrom": true
+    },
+    {
+      "id": "catheter-insertion-female",
+      "title": "Catheter Insertion (Female)",
+      "category": "procedures",
+      "durationMinutes": 40,
+      "prescriptionRequired": true,
+      "description": "When a woman cannot urinate naturally — after surgery or due to illness — a trained female nurse gently inserts a soft tube to drain urine comfortably and safely at home. Done with full privacy and sterile care.",
+      "price": 1598,
+      "priceFrom": true
+    },
+    {
+      "id": "catheter-maintenance",
+      "title": "Catheter Maintenance",
+      "category": "procedures",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "If someone already has a catheter in place, a nurse comes to clean it, change the urine collection bag, and check everything is working properly — keeping the patient comfortable and infection-free.",
+      "price": 648,
+      "priceFrom": true
+    },
+    {
+      "id": "catheter-removal",
+      "title": "Catheter Removal",
+      "category": "procedures",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "When your doctor says it's time to remove the catheter, a nurse comes home to take it out safely and comfortably — no need to go back to the hospital just for this.",
+      "price": 948,
+      "priceFrom": true
+    },
+    {
+      "id": "catheter-replacement",
+      "title": "Catheter Replacement",
+      "category": "procedures",
+      "durationMinutes": 40,
+      "prescriptionRequired": true,
+      "description": "Long-term catheters need to be replaced every 4–6 weeks to prevent infection. A trained nurse removes the old catheter and inserts a new one using sterile technique — so the patient stays comfortable and safe at home without a hospital visit.",
+      "price": 898,
+      "priceFrom": true
+    },
+    {
+      "id": "ng-tube-insertion",
+      "title": "NG Tube Insertion",
+      "category": "procedures",
+      "durationMinutes": 45,
+      "prescriptionRequired": true,
+      "description": "A soft, thin tube is passed through the nose into the stomach to deliver liquid food or medicine to patients who cannot eat or swallow normally — commonly needed after strokes, surgeries, or serious illness.",
+      "price": 1148,
+      "priceFrom": true
+    },
+    {
+      "id": "enema-female",
+      "title": "Enema (Female)",
+      "category": "procedures",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "Professional enema administration at home for female patients — glycerin, phosphate (Fleet), tap water, or oil retention as required.",
+      "price": 1150,
+      "priceFrom": true
+    },
+    {
+      "id": "enema-male",
+      "title": "Enema (Male)",
+      "category": "procedures",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "Professional enema administration at home for male patients — glycerin, phosphate (Fleet), tap water, or oil retention as required.",
+      "price": 1150,
+      "priceFrom": true
+    },
+    {
+      "id": "home-nebulisation",
+      "title": "Home Nebulisation",
+      "category": "procedures",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "A nurse brings a nebuliser to your home and administers your prescribed bronchodilator (e.g. Budecort, Duolin) as a fine mist you breathe in — opening the airways within minutes. Ideal for asthma attacks, COPD flare-ups, or persistent wheeze and breathlessness.",
+      "price": 199,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-hydration-drip",
+      "title": "IV Hydration Drip",
+      "category": "iv-drips",
+      "durationMinutes": 60,
+      "prescriptionRequired": true,
+      "description": "A nurse comes home and sets up a drip to deliver fluids and electrolytes directly into your vein — much faster than drinking water. Ideal when you're severely dehydrated from vomiting, fever, diarrhoea, or heat.",
+      "price": 548,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-pantoprazole-drip",
+      "title": "IV Pantoprazole Drip",
+      "category": "iv-drips",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "An IV drip that reduces stomach acid quickly — used when you have severe acidity, gastritis, or a stomach ulcer and oral medicines are not enough. Works faster than tablets.",
+      "price": 548,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-anti-nausea-drip",
+      "title": "IV Anti-Nausea Drip",
+      "category": "iv-drips",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "Feeling very nauseous or vomiting constantly? This IV drip stops nausea and vomiting within minutes — more effective than oral anti-nausea tablets when you can't keep anything down.",
+      "price": 548,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-multivitamin-drip",
+      "title": "IV Multivitamin Drip",
+      "category": "iv-drips",
+      "durationMinutes": 45,
+      "prescriptionRequired": true,
+      "description": "A drip that delivers Vitamin C, B-complex, and essential micronutrients directly into your bloodstream — bypassing the gut for maximum absorption. Great for fatigue, immunity, or recovery after illness.",
+      "price": 648,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-diuretic-drip",
+      "title": "IV Diuretic Drip (Furosemide)",
+      "category": "iv-drips",
+      "durationMinutes": 30,
+      "prescriptionRequired": true,
+      "description": "A diuretic drip that helps your body get rid of excess fluid — used when swelling in the legs, ankles, or lungs is causing discomfort. Commonly given at home after a hospital stay for heart or kidney conditions.",
+      "price": 548,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-iron-sucrose-infusion",
+      "title": "IV Iron Sucrose Infusion",
+      "category": "iv-drips",
+      "durationMinutes": 150,
+      "prescriptionRequired": true,
+      "description": "Slow IV drip for iron-deficiency anaemia. Nurse administers Iron Sucrose (500 mg) diluted in 100 ml Normal Saline with vital monitoring throughout.",
+      "price": 848,
+      "priceFrom": true
+    },
+    {
+      "id": "iv-line-removal",
+      "title": "IV Line Removal",
+      "category": "iv-drips",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "A certified nurse visits your home to safely remove your IV cannula or peripheral line. Takes about 15 minutes — no need to travel to a hospital just for this.",
+      "price": 449,
+      "priceFrom": true
+    },
+    {
+      "id": "general-physician",
+      "title": "General Physician at Home",
+      "category": "consultations",
+      "durationMinutes": 35,
+      "prescriptionRequired": false,
+      "description": "A nurse visits with a full vitals kit — BP, SpO2, temperature, blood glucose. A verified GP joins live via video, examines you through the nurse's assessment, diagnoses, and issues a digital prescription. Covers fever, infections, body pain, cough, stomach issues, and general illness.",
+      "price": 499,
+      "priceFrom": false
+    },
+    {
+      "id": "chronic-disease-review",
+      "title": "Chronic Disease Review",
+      "category": "consultations",
+      "durationMinutes": 40,
+      "prescriptionRequired": false,
+      "description": "For patients managing diabetes, hypertension, thyroid disorders, or other long-term conditions. A nurse takes a full vitals assessment and records current readings — an Internal Medicine specialist reviews everything live via video, adjusts medications, and sends an updated prescription.",
+      "price": 699,
+      "priceFrom": false
+    },
+    {
+      "id": "paediatric-consultation",
+      "title": "Paediatric Consultation at Home",
+      "category": "consultations",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "For infants, toddlers, and children up to 12 years. A nurse trained in paediatric assessments visits your home — a paediatrician joins live via video to evaluate fever, infections, breathing issues, rashes, or growth concerns. No stressful clinic trip for your child.",
+      "price": 599,
+      "priceFrom": false
+    },
+    {
+      "id": "womens-health-consult",
+      "title": "Women's Health Consult",
+      "category": "consultations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "A private video consultation with a verified gynaecologist — menstrual irregularities, PCOS, pregnancy guidance, perimenopause, contraception, hormonal concerns, or any women's health question. Conducted discreetly from home. Digital prescription if required.",
+      "price": 399,
+      "priceFrom": false
+    },
+    {
+      "id": "kidney-consult",
+      "title": "Kidney & Nephrology Consult",
+      "category": "consultations",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "Video consultation with a nephrologist for CKD monitoring, elevated creatinine, proteinuria, kidney stones, or dialysis guidance. Pair with a home creatinine blood draw at the same visit for a complete kidney review.",
+      "price": 399,
+      "priceFrom": false
+    },
+    {
+      "id": "dental-advice-consult",
+      "title": "Dental Advice Consult",
+      "category": "consultations",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Video consultation with a dentist for tooth pain, sensitivity, gum problems, cavity assessment, wisdom tooth concerns, or post-procedure queries. The dentist reviews your photos and X-rays, advises treatment, and refers you to a clinic for in-person work if needed.",
+      "price": 249,
+      "priceFrom": false
+    },
+    {
+      "id": "prescription-renewal",
+      "title": "Prescription Renewal",
+      "category": "consultations",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Need a refill on a regular medication? A doctor reviews your existing prescription and medication history, and issues a renewed digital prescription within 30 minutes — no clinic visit needed. Fully refunded if renewal is not clinically appropriate.",
+      "price": 149,
+      "priceFrom": false
+    },
+    {
+      "id": "ecg-at-home",
+      "title": "ECG at Home (12-Lead)",
+      "category": "lab-tests",
+      "durationMinutes": 30,
+      "prescriptionRequired": false,
+      "description": "A certified nurse visits your home, records a full 12-lead ECG using a portable machine, and sends the digital trace to a cardiologist. Written report delivered within 2 hours.",
+      "price": 399,
+      "priceFrom": true
+    },
+    {
+      "id": "cbc",
+      "title": "Complete Blood Count (CBC)",
+      "category": "lab-tests",
+      "durationMinutes": 20,
+      "prescriptionRequired": false,
+      "description": "Home blood draw for a full CBC — checks haemoglobin, WBC, platelets, RBC indices. Useful for anaemia, infection, and routine health screening. Digital report within 6 hours.",
+      "price": 349,
+      "priceFrom": true
+    },
+    {
+      "id": "blood-glucose",
+      "title": "Blood Glucose (FBS / PPBS)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Fasting Blood Sugar (FBS) or Post-Prandial Blood Sugar (PPBS) home draw. Essential for diabetes diagnosis and monitoring. Report within 4 hours.",
+      "price": 249,
+      "priceFrom": true
+    },
+    {
+      "id": "hba1c",
+      "title": "HbA1c (Glycated Haemoglobin)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Measures 3-month average blood sugar — the gold-standard test for diabetes management and diagnosis. No fasting required. Report within 6 hours.",
+      "price": 399,
+      "priceFrom": true
+    },
+    {
+      "id": "lipid-profile",
+      "title": "Lipid Profile",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Comprehensive cholesterol panel: Total Cholesterol, HDL, LDL, VLDL, and Triglycerides. Key for heart disease risk assessment. 12-hour fasting required. Report within 6 hours.",
+      "price": 449,
+      "priceFrom": true
+    },
+    {
+      "id": "tsh",
+      "title": "TSH (Thyroid Stimulating Hormone)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Thyroid screening test — detects hypothyroidism and hyperthyroidism. No fasting needed. Report within 6 hours.",
+      "price": 349,
+      "priceFrom": true
+    },
+    {
+      "id": "vitamin-b12-serum",
+      "title": "Vitamin B12 (Serum)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Measures B12 levels — identifies deficiency causing fatigue, nerve problems, and anaemia. No fasting required. Report within 6 hours.",
+      "price": 399,
+      "priceFrom": true
+    },
+    {
+      "id": "vitamin-d",
+      "title": "Vitamin D (25-OH)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Measures Vitamin D3 levels — the most common deficiency in urban India. Low levels linked to bone loss, fatigue, and immunity issues. Report within 6 hours.",
+      "price": 549,
+      "priceFrom": true
+    },
+    {
+      "id": "kidney-function",
+      "title": "Creatinine & eGFR (Kidney Function)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Measures serum creatinine and estimates Glomerular Filtration Rate (eGFR) — the standard kidney function check. Important for patients on long-term medications. Report within 6 hours.",
+      "price": 349,
+      "priceFrom": true
+    },
+    {
+      "id": "liver-function",
+      "title": "Liver Function Tests (LFT)",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Comprehensive liver panel: SGOT, SGPT, ALP, bilirubin, albumin, and total protein. Used for hepatitis monitoring, medication safety, and liver disease screening. Report within 6 hours.",
+      "price": 549,
+      "priceFrom": true
+    },
+    {
+      "id": "urine-routine",
+      "title": "Urine Routine & Microscopy",
+      "category": "lab-tests",
+      "durationMinutes": 15,
+      "prescriptionRequired": false,
+      "description": "Complete urine analysis: colour, pH, protein, glucose, ketones, RBC, WBC, casts. Screens for UTI, kidney disease, and diabetes. Nurse collects a mid-stream sample at home. Report within 4 hours.",
+      "price": 229,
+      "priceFrom": true
+    }
+  ]
+}
